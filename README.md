@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://avidadfleur.github/checkout-page">
+    <a href="https://avidadfleur.github.io/checkout-page/">
       Solution
     </a>
     <span> | </span>
