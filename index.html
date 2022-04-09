@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    
+    <header>
+      <h1>Checkout</h1>
+    </header>
+
+    <main>
+
+      <div class="info-container">
+
+        <div class="contact-container">
+          <div class="head-container">
+            <h3>Contact information</h3>
+          </div>
+          <form onsubmit="alert('Success')">
+            <div class="input">
+              <label for="email-address">E-mail</label>
+              <input type="email" class="fontAwesome" placeholder="&#xF0e0;  Enter your email..." id="email-address">
+            </div>
+            <div class="input">
+              <label for="phone">Phone</label>
+              <input type="tel" class="fontAwesome" placeholder="&#xF095;  Enter your phone..." required id="phone">
+            </div>
+          </form>
+        </div>
+
+        <div class="shipping-container">
+          <div class="head-container">
+            <h3>Shipping address</h3>
+          </div>
+          <div class="input">
+            <label for="full-name">Full name</label>
+            <input type="text" class="fontAwesome" placeholder="&#xF2bd;  Your name.." required id="full-name">
+          </div>
+          <div class="input">
+            <label for="address">Address</label>
+            <input type="text" class="fontAwesome" placeholder="&#xF015;  Your address.." required id="address">
+          </div>
+          <div class="input">
+            <label for="city">City</label>
+            <input type="text" class="fontAwesome" placeholder="&#xF1ad;  Your city.." required id="city">
+          </div>
+          <div class="join">
+            <div class="input-s">
+              <label for="country">Country</label>
+              <select name="country" id="country" required class="country">
+                <option value="" disabled selected hidden>&#xf0ac;  Your country..</option>
+                <option value="Mexico">Mexico</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="France">France</option>
+              </select>
+            </div>
+            <div class="input-s">
+              <label for="postal">Postal code</label>
+              <input type="text" class="fontAwesome" placeholder="&#xF187;  Your postal code.." required id="postal">
+            </div>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" required id="checkbox">
+            <label for="checkbox">Save this information for next time</label>
+          </div>
+          <div class="button">
+            <button type="submit">Continue</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="total-container">
+        <div class="item-container">
+          <div class="image-container">
+            <img src="photo1.png" alt="">
+          </div>
+          <div class="name-price">
+            <p>Vintage Backpag</p>
+            <span class="orange">$54.99</span>
+            <span class="deal">$94.99</span>
+          </div>
+          <div class="quantity-container">
+            <div class="quantity">
+              <span class="minus fontAwesome">&#xF068;</span>
+              <span class="number">1</span>
+              <span class="plus fontAwesome">&#xF067;</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-container">
+          <div class="image-container">
+            <img src="photo2.png" alt="">
+          </div>
+          <div class="name-price">
+            <p>Levi Shoes</p>
+            <span class="orange">$74.99</span>
+            <span class="deal">$124.99</span>
+          </div>
+          <div class="quantity-container">
+            <div class="quantity">
+              <span class="minus fontAwesome">&#xF068;</span>
+              <span class="number">1</span>
+              <span class="plus fontAwesome">&#xF067;</span>
+            </div>
+          </div>
+        </div>
+        <div class="shipping-and-total">
+          <div class="shipping">
+            <span class="big">Shipping</span>
+            <span class="small">$19</span>
+          </div>
+          <div class="total">
+            <span class="big">Total</span>
+            <span class="small">$148.98</span>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <footer>
+      <span>created by <a href="https://github.com/avidadfleur">avidadfleur</a> - devChallenges.io</span>
+    </footer>
+
+  </div>
+</body>
+</html>
