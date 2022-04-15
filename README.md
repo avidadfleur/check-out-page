@@ -38,8 +38,6 @@
 
 ![Screen Shot 2022-04-09 at 13 04 50](https://user-images.githubusercontent.com/86981532/162588205-596b7462-c9fe-48b6-b18e-86cc1ba8b4fe.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 - What was your experience?
   This challenge looked pretty easy but i struggled again with pixels when trying to make the page responsive
 - What have you learned/improved?
